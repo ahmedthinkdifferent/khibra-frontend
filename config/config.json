@@ -1,0 +1,15 @@
+{
+  "ENV_MODE": "dev",
+  "minPasswordLength": 6,
+  "maxLength": 200,
+  "maxPhoneNumber": 99999999999999999999,
+  "dev": {
+    "API_URL": "http://localhost:3001/api"
+  },
+  "test": {
+    "API_URL": "https://khibra.herokuapp.com/api"
+  },
+  "production": {
+    "API_URL": "http://localhost:3001/api"
+  }
+}

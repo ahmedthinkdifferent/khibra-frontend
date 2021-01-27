@@ -1,0 +1,29 @@
+{
+  "name": "khibra-react-nextjs",
+  "version": "1.0.0",
+  "description": "khibra web client, using react and nextjs",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev --port=3000",
+    "build": "next build",
+    "start": "next start",
+    "dev-inspect": "NODE_OPTIONS='--inspect' next dev"
+  },
+  "author": "The Taken Seat Team - Sherief Abdulmajeed",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "~17.1.1",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "formik": "^2.1.5",
+    "next": "~9.4.4",
+    "nprogress": "~0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "~16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "~16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.1.20",
+    "yup": "^0.29.3"
+  }
+}
